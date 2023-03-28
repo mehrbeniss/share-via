@@ -5,7 +5,7 @@ Share via Whatsapp, Linkedin, Twitter, etc for your web app and browser in mobil
               <a onClick={() => window.open(`https://www.linkedin.com/shareArticle?mini=true&url=${shareUrl}`, '_blank')} size="lg:md" variant="default" />
              
 ## Whatsapp
-              <a onClick={() => window.open(`https://web.whatsapp.com/send?text=${shareUrl}`, '_blank')} size="lg:md" variant="default"/>
+              <a onClick={() => window.open(`https://web.whatsapp.com/send?text=${Url}`, '_blank')} size="lg:md" variant="default"/>
               
 ## Whatsapp Mobile
               <a href={`https://wa.me/?text=${shareUrl}`} size="sm" variant="default" />
@@ -31,4 +31,4 @@ Share via Whatsapp, Linkedin, Twitter, etc for your web app and browser in mobil
               />
 
 
-**disclaimer: Button and addToast need to be replaced with your own components ;)
+**disclaimer: ShareUrl will be replaced with your desired URL. Button and addToast need to be replaced with your own components ;)
