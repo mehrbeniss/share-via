@@ -2,12 +2,12 @@
 Share via Whatsapp, Linkedin, Twitter, etc for your web app and browser in mobile: 
 
 ## Linkedin
-              <a onClick={() => window.open(`https://www.linkedin.com/shareArticle?mini=true&url=${shareUrl}`, '_blank')} size="lg:md"             variant="default" />
+              <a onClick={() => window.open(`https://www.linkedin.com/shareArticle?mini=true&url=${shareUrl}`, '_blank')} size="lg:md" variant="default" />
              
 ## Whatsapp
               <a onClick={() => window.open(`https://web.whatsapp.com/send?text=${shareUrl}`, '_blank')} size="lg:md" variant="default"/>
               
-              # Whatsapp Mobile
+## Whatsapp Mobile
               <a href={`https://wa.me/?text=${shareUrl}`} size="sm" variant="default" />
               
 ## Twitter
@@ -29,3 +29,6 @@ Share via Whatsapp, Linkedin, Twitter, etc for your web app and browser in mobil
                 size="lg:md"
                 variant="default"
               />
+
+
+**disclaimer: <Button> and addToast needs to be replaced with your own components.
