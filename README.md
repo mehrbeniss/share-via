@@ -31,4 +31,4 @@ Share via Whatsapp, Linkedin, Twitter, etc for your web app and browser in mobil
               />
 
 
-**disclaimer: <Button> and addToast needs to be replaced with your own components.
+**disclaimer: <Button and addToast need to be replaced with your own components> ;)
